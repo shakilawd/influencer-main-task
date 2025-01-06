@@ -38,12 +38,13 @@ nav li a{
 }
 .main-camera{
     background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
 }
 
 .banner-description{
     font-size: 18px;
     color: grey;
-    
+
 }
 .btn-primary{
     border-radius: 25px;
@@ -53,4 +54,23 @@ nav li a{
     font-weight: 700;
     font-size: 20px;
     padding: 15px 35px;
+}
+@media screen and (max-width: 576px) {
+    header,nav{
+        padding: 20px;
+        
+    }
+    nav{
+        display: flex;
+    }
+    
+    .banner{
+        flex-direction: column-reverse;
+
+    }
+    .main-camera{
+        width: 90%;
+        background-size: 100%;
+    }
+    
 }
