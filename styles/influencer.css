@@ -28,4 +28,29 @@ nav li a{
 /* banner styles */
 .banner{
     display: flex;
+    padding: 30px 30px 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.banner-title{
+    font-size: 45px;
+}
+.main-camera{
+    background-image: url('../images/Circle\ design.svg');
+}
+
+.banner-description{
+    font-size: 18px;
+    color: grey;
+    
+}
+.btn-primary{
+    border-radius: 25px;
+    background: rgba(236, 14, 125);
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 35px;
 }
