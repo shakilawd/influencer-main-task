@@ -1,0 +1,31 @@
+
+/* header styles */
+header{
+    padding: 10px 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul {
+    display: flex;
+    font-size: 25px;
+    /* color: black; */
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    /* color: black; */
+}
+nav li a{
+    text-decoration: none;
+}
+ nav h3{
+    font-size: 35px;
+    color: black;
+}
+/* banner styles */
+.banner{
+    display: flex;
+}
