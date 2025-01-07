@@ -1,7 +1,9 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&disply=swap');
 
 /* header styles */
 header{
-    padding: 10px 100px;
+    padding: 10px 80px;
 }
 nav{
     display: flex;
@@ -15,11 +17,12 @@ nav > ul {
 }
 nav li{
     list-style: none;
-    margin-right: 30px;
+    margin-right: 34px;
     /* color: black; */
 }
 nav li a{
     text-decoration: none;
+    color: #3a3a3a;
 }
  nav h3{
     font-size: 35px;
@@ -39,11 +42,12 @@ nav li a{
 .main-camera{
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .banner-description{
     font-size: 18px;
-    color: grey;
+    color: #3a3a3a;
 
 }
 .btn-primary{
@@ -55,22 +59,34 @@ nav li a{
     font-size: 20px;
     padding: 15px 35px;
 }
+
+/* main section styles */
+
+.sponsors{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    gap: 5px;
+    padding: 30px 150px;
+
+}
 @media screen and (max-width: 576px) {
-    header,nav{
-        padding: 20px;
+   
+    nav{
+        flex-direction: column;
         
     }
-    nav{
-        display: flex;
-    }
+    
     
     .banner{
         flex-direction: column-reverse;
 
     }
-    .main-camera{
-        width: 90%;
-        background-size: 100%;
+    .banner-title{
+        padding: 25px;
     }
+    
+    
     
 }
