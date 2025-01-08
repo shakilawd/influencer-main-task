@@ -86,7 +86,10 @@ nav li a{
     .banner-title{
         padding: 25px;
     }
-    
+    .sponsors{
+        flex-direction: column;
+        margin-top: 0px;
+    }
     
     
 }
